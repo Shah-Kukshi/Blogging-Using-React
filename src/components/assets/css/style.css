@@ -350,16 +350,16 @@ body.active {
 }
 
 .card-tag {
-  background-color: var(--cultured);
+  background-color: black;
   font-size: var(--fs-9);
   font-weight: var(--fw-500);
   padding: 2px 8px;
   border-radius: var(--radius-pill);
-  transition: var(--transition-1);
+  transition: var(--transition-2);
 }
 
 .card-tag:is(:hover, :focus) {
-  background-color: var(--gainsboro);
+  background-color: white;
   color: black;
 }
 
